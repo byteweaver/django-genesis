@@ -1,6 +1,8 @@
 *.pyc
 *.swo
 *.swp
+# target
+/.target
 # virtualenv folders
 /bin/
 /include/
