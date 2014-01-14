@@ -10,6 +10,7 @@ VIRTUALENV_BINARY?=virtualenv
 VIRTUALENV_PYTHON_BINARY?=python
 
 PYTHON_BINARY="./bin/python"
+PIP_BINARY="./bin/pip"
 
 
 show-target:
@@ -17,6 +18,10 @@ show-target:
 
 virtualenv:
 	test -x $(PYTHON_BINARY) || $(VIRTUALENV_BINARY) --distribute --python $(VIRTUALENV_PYTHON_BINARY) .
+
+requirements: virtualenv
+	$(PIP_BINARY) install -r requirements/base.txt
+	$(PIP_BINARY) install -r requirements/$(TARGET).txt
 
 clean:
 	rm -r {lib,include,bin}
