@@ -11,6 +11,7 @@ VIRTUALENV_PYTHON_BINARY?=python
 
 PYTHON_BINARY=./bin/python
 PIP_BINARY=./bin/pip
+MANAGEPY_BINARY=$(PYTHON_BINARY) manage.py
 
 
 virtualenv:
