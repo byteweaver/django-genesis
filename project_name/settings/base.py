@@ -28,6 +28,11 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+INTERNAL_APPS = (
+)
+
+EXTERNAL_APPS = (
+)
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -36,7 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-)
+) + EXTERNAL_APPS + INTERNAL_APPS
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
