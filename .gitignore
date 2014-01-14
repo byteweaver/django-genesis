@@ -1,3 +1,7 @@
 *.pyc
 *.swo
 *.swp
+# virtualenv folders
+/bin/
+/include/
+/lib/
