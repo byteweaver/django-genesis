@@ -1,6 +1,7 @@
 *.pyc
 *.swo
 *.swp
+*.sqlite3
 # target
 /.target
 # virtualenv folders
