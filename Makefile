@@ -9,8 +9,8 @@ endif
 VIRTUALENV_BINARY?=virtualenv
 VIRTUALENV_PYTHON_BINARY?=python
 
-PYTHON_BINARY="./bin/python"
-PIP_BINARY="./bin/pip"
+PYTHON_BINARY=./bin/python
+PIP_BINARY=./bin/pip
 
 
 virtualenv:
