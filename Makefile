@@ -13,9 +13,6 @@ PYTHON_BINARY="./bin/python"
 PIP_BINARY="./bin/pip"
 
 
-show-target:
-	@echo $(TARGET)
-
 virtualenv:
 	test -x $(PYTHON_BINARY) || $(VIRTUALENV_BINARY) --distribute --python $(VIRTUALENV_PYTHON_BINARY) .
 
@@ -25,3 +22,7 @@ requirements: virtualenv
 
 clean:
 	rm -r {lib,include,bin}
+
+# DEBUG - command to show selected target
+show-target:
+	@echo "Current target is '$(TARGET)'."
