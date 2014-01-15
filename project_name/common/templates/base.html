@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ project_name }}</title>
+    <title>{% block title %}{{ project_name }}{% endblock %}</title>
   </head>
   <body>
+    {% block content %}{% endblock %}
   </body>
 </html>
