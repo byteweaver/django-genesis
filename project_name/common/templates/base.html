@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{% block title %}{{ project_name }}{% endblock %}</title>
+    <title>{% verbatim %}{% block title %}{% endverbatim %}{{ project_name }}{% verbatim %}{% endblock %}{% endverbatim %}</title>
   </head>
   <body>
-    {% block content %}{% endblock %}
+    {% verbatim %}{% block content %}{% endblock %}{% endverbatim %}
   </body>
 </html>
