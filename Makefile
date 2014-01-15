@@ -23,7 +23,7 @@ requirements: virtualenv
 
 test: TARGET=test
 test: requirements
-	$(MANAGEPY_BINARY) test --settings=project_name.settings.test
+	$(MANAGEPY_BINARY) test --settings={{ project_name }}.settings.test
 
 clean:
 	rm -r {lib,include,bin}
