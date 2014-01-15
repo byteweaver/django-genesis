@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 INTERNAL_APPS = (
+    '{{ project_name }}.common',
 )
 
 EXTERNAL_APPS = (
