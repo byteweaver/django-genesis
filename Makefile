@@ -21,6 +21,10 @@ requirements: virtualenv
 	$(PIP_BINARY) install -r requirements/base.txt
 	$(PIP_BINARY) install -r requirements/$(TARGET).txt
 
+test: TARGET=test
+test: requirements
+	$(MANAGEPY_BINARY) test --settings=project_name.settings.test
+
 clean:
 	rm -r {lib,include,bin}
 
