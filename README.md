@@ -1,1 +1,1 @@
-# {{project_name|title}}
+# {{ project_name|title }}
