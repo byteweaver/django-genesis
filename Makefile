@@ -14,6 +14,8 @@ PIP_BINARY=./bin/pip
 MANAGEPY_BINARY=$(PYTHON_BINARY) manage.py
 
 
+all: requirements
+
 virtualenv:
 	test -x $(PYTHON_BINARY) || $(VIRTUALENV_BINARY) --distribute --python $(VIRTUALENV_PYTHON_BINARY) .
 
