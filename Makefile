@@ -28,7 +28,7 @@ test: requirements
 	$(MANAGEPY_BINARY) test --settings={{ project_name }}.settings.test
 
 clean:
-	rm -rf {lib,include,bin}
+	rm -rf {lib,include,bin,share,local}
 
 # DEBUG - command to show selected target
 show-target:
