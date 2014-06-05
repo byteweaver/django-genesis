@@ -10,3 +10,6 @@
 /lib/
 /share/
 /local/
+# pid and fcgi file in deploy
+/deploy/*.pid
+/deploy/*.fcgi
