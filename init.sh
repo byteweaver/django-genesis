@@ -21,7 +21,7 @@ SOCKETFILE="$PROJECT_PATH/deploy/$NAME.fcgi"
 OUTLOG="$PROJECT_PATH/deploy/logs/out.log";
 ERRLOG="$PROJECT_PATH/deploy/logs/err.log";
 DAEMON="$PROJECT_PATH/bin/gunicorn";
-DAEMON_ARGS="$NAME.wsgi:application --chdir $PROJECT_PATH --daemon --umask 0000 --bind $SOCKETFILE --pid $PIDFILE --error-logfile $ERRLOG"; # out log?
+DAEMON_ARGS="$NAME.wsgi:application --chdir $PROJECT_PATH --daemon --umask 0000 --bind unix:$SOCKETFILE --pid $PIDFILE --error-logfile $ERRLOG"; # out log?
 SCRIPTNAME="/etc/init.d/$NAME";
 RUNAS_USER="www-data";
 
