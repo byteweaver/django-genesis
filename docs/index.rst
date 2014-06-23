@@ -21,7 +21,6 @@ Deployment
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
 
    deployment/index
    deployment/system
