@@ -8,6 +8,14 @@ Welcome to {{project_name}}'s documentation!
 
 This document refers to version |release|
 
+Project template
+----------------
+
+.. toctree::
+   :maxdepth: 2
+
+   project/targets
+
 Deployment
 ----------
 
