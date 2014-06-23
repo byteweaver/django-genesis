@@ -44,8 +44,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = '{{project_name}}'
-copyright = '2014, noxan'
+project = 'django project template'
+copyright = '2014, Richard Stromer'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
