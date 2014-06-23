@@ -8,6 +8,7 @@ Summary
 
 - Debian GNU/Linux (wheezy)
 - nginx
+- PostgreSQL
 
 Debian packages
 ---------------
@@ -19,3 +20,8 @@ Nginx configuration
 -------------------
 
 root directory is /var/www/
+
+PostgreSQL
+----------
+
+The desired database backend for production usage.
