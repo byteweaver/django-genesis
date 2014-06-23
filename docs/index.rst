@@ -6,10 +6,18 @@
 Welcome to {{project_name}}'s documentation!
 ============================================
 
-Contents:
+This document refers to version |release|
+
+Deployment
+----------
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
+
+   deployment/index
+   deployment/system
+   deployment/project
 
 
 
