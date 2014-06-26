@@ -13,6 +13,8 @@ SSH configuration
 
 To deploy multiple projects for the same user we have to add a ssh configuration to manage multiple deploy keys. The configuration file is stored at ``/var/www/.ssh/config``.
 
+.. code-block:: config
+
     Host {{project_name}}.github.com
     HostName github.com
     User git
@@ -20,6 +22,8 @@ To deploy multiple projects for the same user we have to add a ssh configuration
 
 Clone project source code
 -------------------------
+
+.. code-block:: bash
 
     $ cd /var/www
     $ git clone {{project_name}}.github.com:{{project_user}}/{{project_name}} {{project_name}}
