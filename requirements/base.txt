@@ -1,1 +1,1 @@
-https://www.djangoproject.com/download/1.7.b4/tarball/
+https://www.djangoproject.com/download/1.7c1/tarball/
