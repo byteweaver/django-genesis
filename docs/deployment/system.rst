@@ -56,7 +56,7 @@ and update nginx configuration to use this directory for default site:
 
     $ sed - i 's#/usr/share/nginx/www#/var/www/default#g' /etc/nginx/sites-enabled/default
 
-Change ownership of all files contained in ``/var/www`` always to ``www-data```.
+Change ownership of all files contained in ``/var/www`` always to ``www-data``.
 
 PostgreSQL
 ----------
