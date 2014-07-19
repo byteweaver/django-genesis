@@ -44,7 +44,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'django project template'
+project = 'django-genesis'
 copyright = '2014, Richard Stromer'
 
 # The version info for the project you're documenting, acts as replacement for
