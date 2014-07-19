@@ -3,14 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Django project template
-=======================
+django-genesis (project template)
+=================================
 
-A template to create new django projects containing addtional features to kick-start your development.
+Kick-start your django development with this project template.
 
-Project website: https://github.com/noxan/django-project-template
+Project website: https://github.com/byteweaver/django-genesis
 
-Issue tracker: https://github.com/noxan/django-project-template/issues
+Issue tracker: https://github.com/byteweaver/django-genesis
 
 Key features
 ------------
@@ -30,7 +30,7 @@ Usage
 
 .. code-block:: Bash
 
-    $ django-admin.py startproject --template=https://github.com/noxan/django-project-template/archive/master.zip --extension=py,md,html,sh --name=Makefile <project_name>
+    $ django-admin.py startproject --template=https://github.com/byteweaver/django-genesis/archive/master.zip --extension=py,md,html,sh --name=Makefile <project_name>
 
 Documentation
 =============
