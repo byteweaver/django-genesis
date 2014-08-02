@@ -13,8 +13,9 @@ Summary
 Debian packages
 ---------------
 
-$ apt-get install nginx git
-python3 python3-dev python-virtualenv
+.. code-block:: bash
+
+    $ apt-get install nginx git python3 python3-dev python-virtualenv
 
 
 Nginx configuration
