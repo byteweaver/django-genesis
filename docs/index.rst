@@ -10,7 +10,7 @@ Kick-start your django development with this project template.
 
 Project website: https://github.com/byteweaver/django-genesis
 
-Issue tracker: https://github.com/byteweaver/django-genesis
+Issue tracker: https://github.com/byteweaver/django-genesis/issues
 
 Key features
 ------------
