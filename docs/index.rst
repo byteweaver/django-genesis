@@ -45,6 +45,23 @@ Project template
 
    project/targets
 
+Usage
+-----
+
+.. toctree::
+   :maxdepth: 2
+
+   usage/index
+   usage/setup
+
+Development
+-----------
+
+.. toctree::
+   :maxdepth: 2
+
+   development/index
+
 Deployment
 ----------
 
