@@ -23,7 +23,7 @@ Key features
 Abstract
 --------
 
-This project template solves every day problems with django and provides some useful additional features. It is designed to be used with the latest stable django (1.6.5) and python (3.4) version. Furthermore it is ready to be deployed on a Debian GNU/Linux based system within no time and tries to simplify the deployment process.
+This project template solves every day problems with django and provides some useful additional features. It is designed to be used with the latest stable django (1.7) and python (3.4) version. Furthermore it is ready to be deployed on a Debian GNU/Linux based system within no time and tries to simplify the deployment process.
 
 Usage
 -----
