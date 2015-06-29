@@ -30,7 +30,7 @@ Usage
 
 .. code-block:: Bash
 
-    $ django-admin.py startproject --template=https://github.com/byteweaver/django-genesis/archive/master.zip --extension=py,md,html,sh --name=Makefile <project_name>
+    $ django-admin.py startproject --template=https://github.com/byteweaver/django-genesis/archive/master.zip --extension=nginx,service,py,md,html,sh --name=Makefile <project_name>
 
 Documentation
 =============
