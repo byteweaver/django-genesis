@@ -24,5 +24,8 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
 ]
 
+# https://docs.djangoproject.com/en/1.8/howto/static-files/#serving-static-files-during-development
 urlpatterns += staticfiles_urlpatterns()
+
+# https://docs.djangoproject.com/en/1.8/howto/static-files/#serving-files-uploaded-by-a-user-during-development
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
