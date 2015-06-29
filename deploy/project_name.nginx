@@ -1,0 +1,34 @@
+upstream {{project_name}} {
+  server unix:/var/www/{{project_name}}/deploy/gunicorn.sock;
+}
+
+server {
+  server_name {{project_name}}.local;
+
+  listen 80;
+  listen [::]:80;
+
+  charset utf-8;
+
+  access_log  /var/log/nginx/{{project_name}}.access.log;
+  error_log   /var/log/nginx/{{project_name}}.error.log;
+
+  root /var/www/{{project_name}}/;
+
+  location /static/ {
+    alias /var/www/{{project_name}}/deploy/static/;
+  }
+
+  location /media/ {
+    alias /var/www/{{project_name}}/deploy/media/;
+  }
+
+  location / {
+    proxy_set_header Host $http_host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_redirect off;
+    proxy_pass http://{{project_name}};
+  }
+}
