@@ -17,3 +17,6 @@
 # pid and fcgi file in deploy
 /deploy/*.pid
 /deploy/*.fcgi
+# osx
+/.Python
+.DS_Store
