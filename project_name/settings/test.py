@@ -19,3 +19,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.locmem.EmailBackend'
 INSTALLED_APPS += (
     'django_nose',
 )
+
+# Use nose to run all tests
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
