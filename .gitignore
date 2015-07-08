@@ -1,6 +1,10 @@
+# python / pip
 *.pyc
+/pip-selfcheck.json
+# vim files
 *.swo
 *.swp
+# database
 *.sqlite3
 # target
 /.target
