@@ -20,3 +20,6 @@
 # osx
 /.Python
 .DS_Store
+# tests / coverage
+/man/
+/.coverage
