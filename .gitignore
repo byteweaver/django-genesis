@@ -21,5 +21,6 @@
 /.Python
 .DS_Store
 # tests / coverage
+/coverage/
 /man/
 /.coverage
