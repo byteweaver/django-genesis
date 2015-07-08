@@ -15,3 +15,17 @@ PASSWORD_HASHERS = (
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.locmem.EmailBackend'
+
+INSTALLED_APPS += (
+    'django_nose',
+)
+
+# Use nose to run all tests
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+NOSE_ARGS = [
+    '--cover-inclusive',
+    '--with-coverage',
+    '--cover-package={{project_name}}',
+    '--cover-html',
+]
